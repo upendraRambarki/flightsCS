@@ -1,0 +1,139 @@
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home-topbar {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 40px;
+    align-items: center;
+    background-color: rgb(138, 255, 216);
+}
+
+.home-topbar-left,.home-topbar-right     {
+    flex: 2;
+    background-color: ;
+}
+.home-topbar-navs {
+    flex: 4;
+}
+
+.home-topbar-left img {
+    height: 30px;
+    margin: auto 30px;
+}
+
+
+.home-topbar-navs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.home-topbar-navs-item {
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+
+/* Branding */
+
+.home-branding {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    background-color: rgb(138, 222, 255);
+    /* background-image: `url(${airplane})`; */
+
+}
+
+.home-branding-left {
+    flex: 4;
+    padding: 3%;
+}
+
+.home-brand-head {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.home-branding-right {
+    flex: 6;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+     
+    
+
+}
+
+.home-branding-right img {
+    width: 50vw;
+    height: 60vh;
+}
+
+.home-brand-button {
+    padding: 5px 6px;
+    margin-top: 20px;
+    background-color: #2b2b2b;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.home-search-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-search-inputs {
+    background-color: rgb(255, 255, 255);
+    width: 80vw;
+    padding:40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px #969696;
+}
+
+.home-search-inputs input {
+    width: 50vw;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #000;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.home-check-button {
+    padding: 10px 30px;
+    background-color: #2b2b2b;
+    outline: none;
+    border-radius: 25px;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,120 @@
+.register-container {
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* change */
+}
+
+.register-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.register-welcometext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #3c6761;
+}
+
+.register-welcomesubtext {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #3c6761;
+    margin-top: 20px;
+}
+
+
+.register-register-block {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0;
+    background-color: #ffffff;
+    width: 80%;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-block-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-block-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+ .r2 {
+    margin-left: 19px;
+ }
+.register-block-group > input{
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:  0.5px solid #6c707b;
+    outline: none;
+    font-size: 1rem;
+}
+
+.register-eye-icon{
+    position: relative;
+    right: 10%;
+}
+.register-buttons {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 2% 0;
+    width: 30%;
+}
+
+.register-forgot-password {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #3c6761;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.register-buttons > button {
+    padding: 8px 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 600;
+}
+
+.register-button-register{
+    background-color: #043730;
+    border: 1px solid #043730;
+    color: #ffffff;
+}
+
+.register-button-signup {
+    background-color: #EE5B47;
+    border: 1px solid #EE5B47;
+    color: #ffffff;
+}
+
+.register-terms {
+    font-size: 0.5rem;
+    position: absolute;
+    bottom: 20px;
+
+}

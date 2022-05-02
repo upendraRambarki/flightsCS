@@ -1,0 +1,74 @@
+.flightCover{
+    width: 93%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(233, 233, 233); */
+    border: 1px solid rgb(96, 96, 96);
+    margin-bottom: 5px;
+    padding: 10px;
+    background: #C6CEBB;
+    /* background: -moz-linear-gradient(45deg, #C6CEBB 0%, #66A4E3 50%, #C5C5C5 100%); */
+    background: -webkit-linear-gradient(45deg, #C6CEBB 0%, #66A4E3 50%, #C5C5C5 100%);
+    /* background: linear-gradient(45deg, #C6CEBB 0%, #66A4E3 50%, #C5C5C5 100%); */
+}
+.add{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+.add-button
+{
+    height: 35px;
+    width: 200px;
+    border: 1px solid gray;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(72, 223, 72);
+}
+.add-button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: greenyellow;
+}
+.crudContainer{
+    height: 80px;
+    width: 7%;
+}
+button{
+    width: 100%;
+    color:white;
+    font-weight: 600;
+    height: 50%;
+}
+.red{
+    background-color: rgb(215, 86, 86);
+}
+.blue
+{
+    background-color: rgb(95, 95, 237);
+}
+button:hover{
+    cursor: pointer;
+}
+.sec1,.sec2,.sec3,.sec4
+{
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 5px;
+}
+.sec1 p,.sec2 p,.sec3 p,.sec4 p{
+font-weight: 900;
+margin-right: 9px;
+}
+span{
+    font-weight: 0;
+}

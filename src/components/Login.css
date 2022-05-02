@@ -1,0 +1,110 @@
+.login-container {
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* change */
+}
+
+.login-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.login-welcometext {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #3c6761;
+}
+
+.login-welcomesubtext {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #3c6761;
+    margin-top: 20px;
+}
+
+
+.login-login-block {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0;
+    background-color: #ffffff;
+    width: 80%;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.login-block-inputs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    margin-right: 5px;
+}
+
+.login-block-inputs > input{
+    margin: auto 2%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:  0.5px solid #6c707b;
+    outline: none;
+    font-size: 1rem;
+}
+
+ 
+.login-eye-icon{
+    position: relative;
+    right: 10%;
+}
+.login-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding: 2% 0;
+    width: 100%;
+}
+
+
+.login-buttons > button {
+    padding: 8px 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 600;
+}
+.login-forgot-password {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #3c6761;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.login-button-login{
+    background-color: #043730;
+    border: 1px solid #043730;
+    color: #ffffff;
+}
+
+.login-button-signup {
+    background-color: #EE5B47;
+    border: 1px solid #EE5B47;
+    color: #ffffff;
+}
+
+.login-terms {
+    font-size: 0.5rem;
+    position: absolute;
+    bottom: 20px;
+
+}

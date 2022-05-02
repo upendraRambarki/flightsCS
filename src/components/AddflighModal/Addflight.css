@@ -1,0 +1,116 @@
+.modal-overlay {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.modal-container {
+    background: #C6CEBB;
+background: -moz-linear-gradient(45deg, #C6CEBB 0%, #66A4E3 50%, #C5C5C5 100%);
+background: -webkit-linear-gradient(45deg, #C6CEBB 0%, #66A4E3 50%, #C5C5C5 100%);
+background: linear-gradient(45deg, #C6CEBB 0%, #66A4E3 50%, #C5C5C5 100%);
+    padding: 20px;
+    border-radius: 2px;
+    width: 80%;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    font-style: normal;
+    height: auto;
+}
+
+.upper-section {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+.upper-section > h1 {
+    margin: 0;
+}
+
+.close {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.close {
+    cursor: pointer;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.middle-section > * {
+    margin: 5px 0;
+}
+
+.lower-section {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px 0;
+}
+
+.modal-btn {
+    border-width: 0;
+    outline: none;
+    width:150px;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    margin-left: 15px;
+    padding: 12px 24px;
+    transition: background-color 0.3s;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.modal-btn:hover {
+    cursor: pointer;
+}
+
+.btn-green {
+    background-color:black;
+    border: 1px solid white;
+    color:white;
+}
+
+.btn-green:hover,
+.btn-green:focus {
+    background-color: white;
+    color:black;
+}
+.input{
+    margin-bottom: 10px;
+}
+
+.btn-red {
+    background-color: white;
+    color:black;
+    border:1px solid black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-red:hover,
+.btn-red:focus {
+    background-color: black;
+    color:white;
+}
